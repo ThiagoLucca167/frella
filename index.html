@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container" style="border-bottom: 1px solid gray; margin-bottom: 15px;">  
+            <nav class="navbar navbar-light">
+               <div class="navbar-edition" style="width:100%;">
+                   <div class="perfil"> 
+                       <div class="perfil-1"> 
+                           <div class="imagem-nome">
+                            <div class="circulo-imagem">
+                                <div class="foto-perfil">1</div>
+                            </div> 
+                            <div class="usuario">
+                                <div class="nome-usuario"> <b>123 123 123</b>
+                                    <p class="salvo"> - Salvo</p>
+                               </div>
+                               <div class="status-usuario">
+                                   <p class="usuario-candidato">Candidato</p>
+                               </div>
+                            </div>  <!--usuario--> 
+                           </div> <!--Imagem nome-->
+                       </div> <!--Perfil-1 -->
+                       <div class="perfil-propostas">
+                           <div class="processos-para-usuario processos-consulta">
+                               <div class="consultor consult-titulo">
+                                   <div class="consultorlead">
+                                       <div class="titulo">
+                                           <b>Consultor</b>
+                                       </div>
+                                       <div class="text">
+                                           <p class="subtextopadrao">Origem de LEAD</p>
+                                       </div>
+                                   </div>
+                               </div><!--CONSULTOR-->
+                               <div class="inscricao">
+                                <div class="consultorlead">
+                                    <div class="titulo">
+                                        <b class="mob">Em processo de criação</b>
+                                    </div>
+                                    <div class="text">
+                                        <p class="subtextopadrao">razão do status</p>
+                                    </div>
+                                </div>
+                               </div> <!--INSCRICAO-->
+                               <div class="nome-consultor">
+                                <div class="consultorlead border-none">
+                                    <div class="titulo">
+                                        <b class="mob">André Miranda</b>
+                                    </div>
+                                    <div class="text">
+                                        <p class="subtextopadrao">consultor</p>
+                                    </div>
+                                </div>
+                               </div><!--NOME-CONSULTOR-->
+                           </div>
+                       </div>
+                   </div>
+                   <div class="etapas">
+                       <div class="processos-para-usuario mt-3">
+                          <div class="etapacand et"><a href="#">Candidato</a></div>
+                          <div class="etapaoferta et"><a href="#">Oferta</a></div>
+                          <div class="etapainfo et"><a href="#">Mais informações</a></div>
+                          <!-- Mobile-->
+                          <div class="btn-group mobileinfo" style="display: none;">
+                            <button class="btn btn-secondary et edicaoinfo" type="button" data-toggle="dropdown" aria-expanded="false">
+                              Mais
+                            </button>
+                            <div class="dropdown-menu"></div>
+                          </div>
+                          <!--mobile fechamento-->
+                          <div class="etapavisao et"><a href="#">Visão 360</a></div>
+                          <div class="etaparelacionados et"><a href="#">Relacionados</a></div>
+                       </div>
+                   </div> <!--Etapas-->
+               </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container mt-4" style="width: 70%;"> 
+            <nav class="navbar" style="justify-content: start;">
+                <div class="filtro">
+                    <button href="#" class="btn btn-secondary dropsimu mbfb" type="button">
+                        Filtro 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16" style="position: relative; top:5px;" >
+                            <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                    </button> 
+                </div> <!--Filtro-->
+            </nav>
+            <nav class="navbar mt-3" style="justify-content: start;">
+                <div class="simulacao-filter">
+                    <div class="simu">
+                        <div class="contesimu">
+                            <div class="mensimu">
+                                <h5 style="color: #0090ff;text-transform: uppercase;" class="ncpf">Não há simulação para esse CPF </h5>
+                                <button href="#" class="btn btn-secondary dropsimu mt-3 mbfb novasimula" type="button">
+                                    NOVA SIMULAÇÃO
+                                </button> 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

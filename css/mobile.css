@@ -1,0 +1,116 @@
+@media screen and (max-width:320px){
+    .perfil-propostas{
+    position: relative;
+    top: 50px!important;
+    left: -160px!important;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%!important;
+        }
+    .mbfb{
+        width: 100px;
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .novasimula{
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    top: -5px;
+    padding: 10px;
+    }
+    .simulacao-filter {
+        padding: 33px;
+    }
+}
+@media screen and (max-width:465px){
+    .perfil{
+        flex-direction: column;
+    }
+    .perfil-1{
+        width: 100%!important;
+    }
+    .simulacao-filter {
+        padding: 30px;
+    }
+    .nova-simulacao{
+        width: 145px;
+        position: relative;
+        top: -4px;
+    }
+    .ncpf{
+        font-size: 15px!important;
+    }
+    .circulo-imagem {
+        width: 40px;
+        height: 40px;
+    }
+    .foto-perfil{
+        top: 5px!important;
+    }
+    .processos-consulta{
+    align-items: center;
+    float: left;
+    position: relative;
+    left: 160px;
+    top: -50px;
+    }
+    .et{
+        font-size: 13px;
+    }
+    .mobileinfo{
+        display: flex!important;
+    }
+    .etapavisao{
+        display: none;
+    }
+    .etaparelacionados{
+        display: none;
+    }
+    .d4{
+        width: 85px;
+    }
+    .edicaoinfo{
+    border: none;
+    background-color: transparent;
+    color: gray;
+    position: relative;
+    top: -4px;
+    }
+    .edicaoinfo:hover{
+        border: none;
+        background-color: transparent;
+        color: gray;
+    } 
+    .perfil-propostas{
+    position: relative;
+    top: -5px;
+    left: 5px;
+    margin-bottom: 25px;
+    width: 50%;
+    }
+    .mbfb{
+        font-size: 10px!important;
+    }
+}
+
+@media screen and (max-width:600px){
+   
+    .perfil-1{
+        width: 50%;
+    }
+    .consult-titulo{
+        display: none;
+    }
+    .nome-usuario b{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .mob{
+        font-size: 9px;
+    }
+    .mbfb{
+        font-size: 10px!important;
+    }
+}

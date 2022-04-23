@@ -1,0 +1,45 @@
+@media screen and (max-width:500px){
+    .config-espaco{
+        width: 100%!important;
+    }
+    .oferta{
+        flex-direction: column;
+    }
+    .precoMes{
+        justify-content: center;
+    }
+    .mbr{
+        margin-right: 10px;
+    }
+    .setas.somb{
+        display: flex!important;
+    }
+    .dspb{
+        display: none!important;
+    }
+    .botaoSalvar{
+        width: 100%;
+    }
+    .simulacao-filter{
+        padding: 20px;
+    }
+}
+
+@media screen  and (max-width:999px){
+    .simulacao-filter{
+        width: 100%;
+        padding: 70px;
+    }
+    .dspb{
+        display: flex;
+    }
+    .dsp{
+        display: none;
+    }
+
+}
+@media screen  and (min-width:1000px){
+    .svbt{
+        width: 60%;
+    }
+}
