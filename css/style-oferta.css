@@ -76,7 +76,7 @@ p{
     font-weight: 500;
 }
 .pcr{
-    font-size: 13px;
+    font-size: 15px;
     color: gray;
 }
 .example-carousel{
@@ -118,7 +118,8 @@ font-weight: 500;
     letter-spacing: 5px;
 }
 .enemFalid{
-    box-shadow: 0px 0px 15px 5px rgb(209 199 199 / 65%)!important;
-    border-radius: 10px!important;
-    width: 630px!important;
+    width: 650px!important;
+}
+.bolsaMes b{
+    font-size: 13PX;
 }
