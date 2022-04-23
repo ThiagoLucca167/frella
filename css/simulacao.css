@@ -14,8 +14,22 @@
         display: none;
     }
 }
+#buttonFilter{
+    width: 150px;
+    text-align: start;
+    font-size: 15px;
+    align-items: center;
+}
+#buttonFilter svg{
+    position: relative;
+    left: 60px;
+}
 .simulacao-filtro{
     width: 100%;
+}
+.simulacao-filter{
+    padding: 25px!important;
+    border-radius: 10px;
 }
 .contesimu{
     display: flex;
@@ -23,38 +37,14 @@
     justify-content: space-around;
     align-items: center;
 }
-.mdlc{
-    position: relative;
-    top: -20px;
-}
-.msSp{
-    position: relative;
-    top: 3px;
-}
-.msCP{
-    position: relative;
-    top: -6px;
-}
-.semespo{
-    position: relative;
-    top: 12px;
-}
-.dBo{
-    position: relative;
-    top: 7px;
-}
-.data p{
-    width: 100%;
-    font-size: 13px;
-}
-.mbva{
-    height: 5px!important;
-    background-color: #0000ff;
-    width: 100%;
-}
-.msbt{
-    border-radius: 20px;
-}
 .versao-mobile{
     display: none;
+}
+.titleCurso{
+    color: gray;
+    font-weight: 100;
+}
+.curso-simulacao{
+    display: flex;
+    flex-direction: column;
 }

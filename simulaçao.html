@@ -16,18 +16,18 @@
 <body>
     
     <section>
-        <div class="container-fluid mt-4"> 
-            <nav class="navbar" style="justify-content: space-around;">
+        <div class="container mt-4"> 
+            <nav class="navbar" style="justify-content: space-between;">
                 <div class="filtro">
-                    <button href="#" class="btn btn-secondary dropsimu mbfb" type="button">
+                    <button href="#" class="btn btn-secondary dropsimu mbfb" type="button" id="buttonFilter">
                         Filtro 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16" style="position: relative; top:5px;" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
                             <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
                           </svg>
                     </button> 
                 </div> <!--Filtro-->
                 <div class="nova-simulacao">
-                    <button href="#" class="btn btn-secondary dropsimu" type="button">
+                    <button href="#" class="btn btn-secondary dropsimu" type="button" style="width: 150px; font-size: 14px;">
                         NOVA SIMULAÇÃO
                     </button> 
                 </div>
@@ -36,42 +36,43 @@
                 <div class="simulacao-filter psfo">
                     <div class="simu">
                         <div class="contesimu">
-                               <div class="curso-simulacao">
-                                   <div class="cursoSimu">
-                                    <p class="pcr my-2"><strong>Curso:</strong> Ciência da Computação</p>
-                                   </div>
-                                   <div class="oferta-maticula">
-                                       <p class="my-4 cb" style="font-size: 17px; font-weight: 700;">Oferta de matricula</p>
-                                       <h4>R$399,00</h4>
-                                   </div>
-                                   <div class="validade mt-3">
-                                       <p class="pcr"><strong>Data da simulação : </strong> 14/04/2022 <br> <strong>Valida até :</strong> 21/03/2022</p>
-                                   </div>
-                               </div><!--curso simulação-->            
-                               <div class="curso-modalidade">
+                            <div class="curso-simulacao">
                                 <div class="cursoSimu">
-                                    <p class="pcr mdlc my-2"><strong>Modalidade:</strong> A distância</p>
-                                   </div>
-                                   <div class="oferta-maticula">
-                                       <p class="my-4  cb" style="font-size: 15px; font-weight: 600;">MENSALIDADE SEM PONTUALIDADE</p>
-                                       <h4 class="msSp">R$570,00</h4>
-                                   </div>
-                                   <div class="validade mt-3">
-                                       <p class="pcr dBo"><strong>Consultor: </strong> Diego Bove</p>
-                                   </div>
-                               </div><!--curso modalidade-->                
-                               <div class="curso-semestre">
+                                 <h4 class="mb-4">Curso: <strong class="titleCurso">Ciência da computação</strong></h4>
+                                </div>
+                                <div class="oferta-maticula">
+                                    <h6 class=" mb-1 cb">Oferta de matricula</h6>
+                                    <h4>R$399,00</h4>
+                                </div>
+                                <div class="validade mt-3">
+                                    <p class="pcr"><strong>Data da simulação : </strong> 14/04/2022 <br> <strong>Valida até :</strong> 21/03/2022</p>
+                                </div>
+                            </div><!--curso simulação-->            
+                            <div class="curso-simulacao">
                                 <div class="cursoSimu">
-                                    <p class="pcr semespo my-2"><strong>Semestre:</strong> 2021.1</p>
-                                   </div>
-                                   <div class="oferta-maticula">
-                                       <p class="my-5 cb" style="font-size: 15px; font-weight: 600;">MESALIDADE COM PONTUALIDADE</p>
-                                       <h4 class="msCP">R$399,00</h4>
-                                   </div>
-                                   <div class="validade my-3" style="display: flex;width: 100%; justify-content: center;">
-                                       <p class="pcr" style="background-color:rgb(18, 134, 18);color: white;padding: 2px;"><strong style="color: white;">Status: </strong> Ativo</p>
-                                   </div>
-                               </div><!---curso semestre-->
+                                 <h4 class="mb-4 title-exames">Modalidade: <strong class="titleCurso">A distância</strong></h4>
+                                </div>
+                                <div class="oferta-maticula">
+                                    <h6 class="mb-1 cb">Mensalidade sem pontualidade</h6>
+                                    <h4>R$570,00</h4>
+                                </div>
+                                <div class="validade mt-3">
+                                    <p class="pcr"><strong>Consultor: </strong> Diego Bove</p>
+                                </div>
+                            </div><!--curso modalidade-->            
+                            <div class="curso-simulacao">
+                                <div class="cursoSimu">
+                                 <h4 class="mb-4"> Semestre: <strong class="titleCurso"> 2021.1 <br></strong></h4>
+                                </div>
+                                <div class="oferta-maticula">
+                                    <h6 class="mb-1 cb">Mensalidade com pontualidade</h6>
+                                    <h4>R$399,00</h4>
+                                </div>
+                                <div class="validade mt-2" style="width:100%;display:flex;justify-content:center;">
+                                    <p class="pcr sts" style="color: white!important;background-color: #006635; padding: 3px;"><strong style="color: white;">Status : </strong> Ativo</p>
+                                </div>
+                            </div><!--curso semestre-->            
+                        </div><!---curso contesimu-->
                         </div>
                         <div class="versao-mobile"> 
                                 <div class="textmb">
@@ -101,49 +102,48 @@
                                 
                         </div><!--Versao mobile-->
                     </div>
-                </div>
             </nav>
             <nav class="navbar mt-3" style="justify-content: center;">
                 <div class="simulacao-filter psfo">
                     <div class="simu">
                         <div class="contesimu">
-                               <div class="curso-simulacao">
-                                   <div class="cursoSimu">
-                                    <p class="pcr my-2"><strong>Curso:</strong> Ciência da Computação</p>
-                                   </div>
-                                   <div class="oferta-maticula">
-                                       <p class="my-4 cb" style="font-size: 17px; font-weight: 700;">Oferta de matricula</p>
-                                       <h4>R$399,00</h4>
-                                   </div>
-                                   <div class="validade mt-3">
+                            <div class="curso-simulacao">
+                                <div class="cursoSimu">
+                                 <h4 class="mb-4">Curso: <strong class="titleCurso">Ciência da computação</strong></h4>
+                                </div>
+                                <div class="oferta-maticula">
+                                    <h6 class=" mb-1 cb">Oferta de matricula</h6>
+                                    <h4>R$399,00</h4>
+                                </div>
+                                <div class="validade mt-3">
                                     <p class="pcr"><strong>Data da simulação : </strong> 14/04/2022 <br> <strong>Valida até :</strong> 21/03/2022</p>
-                                   </div>
-                               </div><!--curso simulação-->            
-                               <div class="curso-modalidade">
+                                </div>
+                            </div><!--curso simulação-->            
+                            <div class="curso-simulacao">
                                 <div class="cursoSimu">
-                                    <p class="pcr mdlc my-2"><strong>Modalidade:</strong> A distância</p>
-                                   </div>
-                                   <div class="oferta-maticula">
-                                       <p class="my-4  cb" style="font-size: 15px; font-weight: 600;">MENSALIDADE SEM PONTUALIDADE</p>
-                                       <h4 class="msSp">R$570,00</h4>
-                                   </div>
-                                   <div class="validade mt-3">
-                                       <p class="pcr dBo"><strong>Consultor: </strong> Diego Bove</p>
-                                   </div>
-                               </div><!--curso modalidade-->                
-                               <div class="curso-semestre">
+                                 <h4 class="mb-4 title-exames">Modalidade: <strong class="titleCurso">A distância</strong></h4>
+                                </div>
+                                <div class="oferta-maticula">
+                                    <h6 class="mb-1 cb">Mensalidade sem pontualidade</h6>
+                                    <h4>R$570,00</h4>
+                                </div>
+                                <div class="validade mt-3">
+                                    <p class="pcr"><strong>Consultor: </strong> Diego Bove</p>
+                                </div>
+                            </div><!--curso modalidade-->            
+                            <div class="curso-simulacao">
                                 <div class="cursoSimu">
-                                    <p class="pcr semespo my-2"><strong>Semestre:</strong> 2021.1</p>
-                                   </div>
-                                   <div class="oferta-maticula">
-                                       <p class="my-5 cb" style="font-size: 15px; font-weight: 600;">MESALIDADE COM PONTUALIDADE</p>
-                                       <h4 class="msCP">R$399,00</h4>
-                                   </div>
-                                   <div class="validade my-3" style="width:100%;display:flex;justify-content:center;">
-                                       <p class="pcr sts" style="color: white!important;background-color: #fc0000; padding: 2px;"><strong style="color: white;">Status: </strong> Inativo</p>
-                                   </div>
-                               </div><!---curso semestre-->
-                        </div>
+                                 <h4 class="mb-4"> Semestre: <strong class="titleCurso"> 2021.1 <br></strong></h4>
+                                </div>
+                                <div class="oferta-maticula">
+                                    <h6 class="mb-1 cb">Mensalidade com pontualidade</h6>
+                                    <h4>R$399,00</h4>
+                                </div>
+                                <div class="validade mt-2" style="width:100%;display:flex;justify-content:center;">
+                                    <p class="pcr sts" style="color: white!important;background-color: #ba2328; padding: 3px;"><strong style="color: white;">Status : </strong> Ativo</p>
+                                </div>
+                            </div><!--curso semestre-->            
+                        </div><!---curso contesimu-->
                         <div class="versao-mobile">
                             <div class="textmb">
                                 <div class="data text-start px-3 mt-3">
@@ -175,7 +175,7 @@
             </nav>
             <div class="botaoSalvar text-center my-3" style="display: none;">
                 <button type="button" class="btn btn-primary msbt">MOSTRAR MAIS</button>
-                </div>
+            </div>
         </div>
     </section>
     <script src="https://kit.fontawesome.com/d96626b853.js" crossorigin="anonymous"></script>

@@ -7,7 +7,7 @@ p{
     width: 100%;
 }
 .cb{
-    color: #0057ffab;}
+    color: #449dd7;}
 .select{
     margin-top: 5px;
     display: flex;
@@ -91,7 +91,7 @@ p{
     margin-top: 5px;
 }
 .pcr strong{
-    color: rgba(0, 0, 0, 0.733);
+    color: rgb(0 0 0);
 }
 .pmc{
     border-radius: 10px;
@@ -116,4 +116,9 @@ font-weight: 500;
     font-weight: 600;
     border-radius: 20px;
     letter-spacing: 5px;
+}
+.enemFalid{
+    box-shadow: 0px 0px 15px 5px rgb(209 199 199 / 65%)!important;
+    border-radius: 10px!important;
+    width: 630px!important;
 }
