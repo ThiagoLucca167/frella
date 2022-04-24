@@ -4,6 +4,10 @@
         display: flex!important;
         justify-content: center;
     }
+    .botaoSalvar button{
+        width: 180px;
+        border-radius: 30px;
+    }
     .versao-mobile{
         display: flex!important;
     }    
@@ -12,6 +16,15 @@
     }
     .frstcon{
         display: none;
+    }
+    .simulacao-filter{
+        display: none;
+    }
+    .textmb{
+        box-shadow: 0px 0px 15px 1px rgb(186 184 184);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 #buttonFilter{
