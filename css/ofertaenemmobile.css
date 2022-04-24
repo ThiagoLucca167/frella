@@ -23,9 +23,25 @@
     .simulacao-filter{
         padding: 20px;
     }
+    .mblds{
+        display: block;
+    }
+    .precoMes{
+        display: block!important;
+    }
 }
-
+@media screen  and (max-width:768px){
+ .ipt{
+     width: 62%!important;
+ }   
+ .config-espaco {
+    width: 100%!important;
+}
+}
 @media screen  and (max-width:999px){
+    .config-espaco {
+        width: 80%;
+    }
     .simulacao-filter{
         width: 100%;
         padding: 70px;
