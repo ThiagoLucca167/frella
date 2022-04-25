@@ -40,7 +40,10 @@
 }
 @media screen  and (max-width:999px){
     .config-espaco {
-        width: 80%;
+        width: 79%;
+    }
+    .config-espaco2{
+        width: 100%;
     }
     .simulacao-filter{
         width: 100%;
@@ -58,5 +61,11 @@
     .svbt{
         width: 40%;
         margin-top: 15px;
+    }
+}
+
+@media screen  and (min-width:1199px){
+    .config-espaco {
+        width: 80%!important;
     }
 }
